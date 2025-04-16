@@ -1,0 +1,8 @@
+s = input("Enter a string: ")
+res = ''
+for ch in s:
+    if 'A' <= ch <= 'Z':
+        res += chr(ord(ch) + 32)
+    else:
+        res += ch
+print("Lowercase:", res)
